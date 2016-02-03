@@ -1,15 +1,18 @@
 html {
-  background-color: #c9b5ae
+  background-color: #c9b5ae;
+  font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
   font-family: 'PT Sans', sans-serif;
   color: #4e0e1f;
   font-size: 3rem;
+  font-weight: 700;
 }
 
 ol {
   list-style-type: none;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -20,10 +23,34 @@ a {
 
 a:hover {
   color: #4e0e1f;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 
-body {
+img {
+  width: 100%;
+}
+
+figcaption {
   font-family: 'PT Serif', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: .5rem;
+}
+
+.days {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+blockquote{
+  font-size: 3rem;
+  font-weight: 400italic;
+  font-family: 'PT Serif', serif;
+}
+
+cite {
+  font-site: .5rem;
+  font-weight: 700;
+  font-family:
 }
