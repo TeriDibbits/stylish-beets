@@ -13,7 +13,7 @@ h1 {
 ol {
   list-style-type: none;
   list-style-type: lower-greek;
-  text-indent: 1em;
+  margin-left: 2em;
 }
 
 .serving {
@@ -35,8 +35,8 @@ dt {
 }
 
 ul {
-  text-indent: 1em;
   list-style-type: circle;
+  margin-left:2em;
 }
 
 a {
@@ -65,6 +65,10 @@ figcaption {
 .days {
   font-weight: bold;
   font-size: 2rem;
+}
+
+strong {
+  font-weight: normal;
 }
 
 blockquote {
