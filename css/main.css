@@ -12,7 +12,6 @@ h1 {
 
 ol {
   list-style-type: none;
-  font-family: "PT Sans", sans-serif;
   list-style-type: lower-greek;
   text-indent: 1em;
 }
@@ -32,6 +31,7 @@ dt {
 
 .value {
   text-indent: 1em;
+  line-height: 1.5;
 }
 
 ul {
