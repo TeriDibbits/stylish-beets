@@ -1,10 +1,10 @@
 html {
   background-color: #c9b5ae;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Serif", serif;
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #4e0e1f;
   font-size: 3rem;
   font-weight: 700;
@@ -12,7 +12,31 @@ h1 {
 
 ol {
   list-style-type: none;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
+  list-style-type: lower-greek;
+  text-indent: 1em;
+}
+
+.serving {
+  font-style: italic;
+}
+
+.value {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+  font-size: .5rem;
+}
+
+.value {
+  text-indent: 1em;
+}
+
+ul {
+  text-indent: 1em;
+  list-style-type: circle;
 }
 
 a {
@@ -32,8 +56,8 @@ img {
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
+  font-family: "PT Serif", serif;
+  font-style: italic;
   text-align: center;
   font-size: .5rem;
 }
@@ -43,19 +67,18 @@ figcaption {
   font-size: 2rem;
 }
 
-blockquote{
+blockquote {
   font-size: 3rem;
-  font-weight: 400italic;
-  font-family: 'PT Serif', serif;
+  font-style: italic;
 }
 
 cite {
-  font-site: .5rem;
-  font-weight: 700;
-  font-family:
+  font-size: .4rem;
+  font-style: italic;
 }
 
 h2 {
   color: #4e0e1f;
   font-size: 3rem;
+  font-family: "PT Sans", sans-serif;
 }
